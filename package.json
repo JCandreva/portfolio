@@ -1,9 +1,9 @@
 {
-	"name": "next-starter-template",
-	"description": "Build a full-stack web application with Next.js.",
+	"name": "portfolio",
+	"description": "My portfolio.",
 	"private": true,
 	"cloudflare": {
-		"label": "Next.js Framework Starter",
+		"label": "Portfolio",
 		"products": [
 			"Workers"
 		],
