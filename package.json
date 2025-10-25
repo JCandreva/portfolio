@@ -1,7 +1,6 @@
 {
 	"name": "portfolio",
 	"description": "My portfolio.",
-	"private": true,
 	"cloudflare": {
 		"label": "Portfolio",
 		"products": [
