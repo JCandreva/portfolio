@@ -17,6 +17,12 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+  .social-icon {
+    filter: invert(1);
+  }
+  .social-icon-color {
+    filter: brightness(0) saturate(100%) invert(1);
+  }
 }
 
 body {

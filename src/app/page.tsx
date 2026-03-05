@@ -15,12 +15,11 @@ export default function Home() {
               rel="noopener noreferrer"
             >
             <Image
-              className="inline-block mx-1"
+              className="inline-block mx-1 social-icon"
               src="/discord.svg"
               alt="Discord logo"
               width={16}
               height={16}
-              style={{ filter: "invert(1)" }}
             />
             </a>
           </li>
@@ -33,12 +32,11 @@ export default function Home() {
               rel="noopener noreferrer"
             >
             <Image
-              className="inline-block mx-1"
+              className="inline-block mx-1 social-icon"
               src="/modrinth.svg"
               alt="Modrinth logo"
               width={16}
               height={16}
-              style={{ filter: "invert(1)" }}
             />
             </a>
             <a
@@ -48,12 +46,11 @@ export default function Home() {
               rel="noopener noreferrer"
             >
             <Image
-              className="inline-block mx-1"
+              className="inline-block mx-1 social-icon"
               src="/github.svg"
               alt="GitHub logo"
               width={16}
               height={16}
-              style={{ filter: "invert(1)" }}
             />
             </a>
           </li>
@@ -66,12 +63,11 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               <Image
-                className="inline-block mx-1"
+                className="inline-block mx-1 social-icon"
                 src="/github.svg"
                 alt="GitHub logo"
                 width={16}
                 height={16}
-                style={{ filter: "invert(1)" }}
               />
             </a>
           </li>
@@ -84,12 +80,11 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               <Image
-                className="inline-block mx-1"
+                className="inline-block mx-1 social-icon"
                 src="/external-link.svg"
                 alt="Open icon"
                 width={16}
                 height={16}
-                style={{ filter: "invert(1)" }}
               />
             </a>
             <a
@@ -99,12 +94,11 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               <Image
-                className="inline-block mx-1"
+                className="inline-block mx-1 social-icon"
                 src="/github.svg"
                 alt="GitHub logo"
                 width={16}
                 height={16}
-                style={{ filter: "invert(1)" }}
               />
             </a>
           </li>
@@ -123,7 +117,7 @@ export default function Home() {
             alt="Github logo"
             width={16}
             height={16}
-            style={{ filter: "invert(1)" }}
+            className="social-icon"
           />
           Github
         </a>
@@ -139,7 +133,7 @@ export default function Home() {
             alt="LinkedIn logo"
             width={16}
             height={16}
-            style={{ filter: "brightness(0) saturate(100%) invert(1)" }}
+            className="social-icon-color"
           />
           LinkedIn
         </a>
